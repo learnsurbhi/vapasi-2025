@@ -34,13 +34,6 @@ private HDD hdd;
         this.hdd = hdd;
     }
 
-    void display(){
-
-        System.out.println("Processor details:"+proc);
-        System.out.println("HDD details:"+hdd);
-        System.out.println("RAM details:"+ram);
-    }
-
     @Override
     public String toString() {
         return "Laptop{" +

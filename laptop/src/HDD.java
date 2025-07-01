@@ -3,6 +3,8 @@ public class HDD {
     private int size;
     private String type;
 
+    public HDD() {}
+
     public HDD(int size, String type) {
         this.size = size;
         this.type = type;
@@ -23,6 +25,8 @@ public class HDD {
     public void setType(String type) {
         this.type = type;
     }
+
+
 
     @Override
     public String toString() {
