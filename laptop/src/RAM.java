@@ -23,11 +23,6 @@ public class RAM{
         this.generation = generation;
     }
 
-    void display(){
-
-        System.out.println("Generation"+generation+","+"Memory"+size);
-    }
-
     @Override
     public String toString() {
         return "RAM{" +

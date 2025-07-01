@@ -24,11 +24,6 @@ public class Processor {
         this.ghz = ghz;
     }
 
-    void display(){
-
-        System.out.println("Generation"+generation+","+"Memory"+ghz);
-    }
-
     @Override
     public String toString() {
         return "Processor{" +

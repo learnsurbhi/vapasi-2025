@@ -24,11 +24,6 @@ public class HDD {
         this.type = type;
     }
 
-    void display(){
-
-        System.out.println("Size"+size+","+"Type"+type);
-    }
-
     @Override
     public String toString() {
         return "HDD{" +
