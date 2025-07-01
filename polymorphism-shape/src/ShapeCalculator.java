@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 abstract class Shape {
 
-
     public abstract double calArea();
     public abstract double calPeri();
 
@@ -20,8 +19,6 @@ abstract class Shape {
 
 
      public double calArea() {
-         //area= 3.14 *radius*radius;
-         //System.out.println("Area of circle is: "+area);
          return Math.PI*radius*radius;
      }
 
@@ -37,14 +34,11 @@ class Rectangle extends Shape
      double length;
      double breadth;
      double s;
-     //double area;
-     //double per;
      public Rectangle(){}
 
      public Rectangle(double length, double breadth) {
          this.length = length;
          this.breadth = breadth;
-         //this.s= s;
      }
 
      void setDimensions(double l,double b)
