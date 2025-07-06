@@ -7,13 +7,13 @@ public class BookingTask implements Runnable{
     }
 
     @Override
-    public void run() {
+    public synchronized void run() {
         System.out.println("Booking Request received: "+bookingId);
         processPayment();
         confirmTicket();
     }
 
-    public void processPayment()  {
+    synchronized void processPayment()  {
         System.out.println("Processing payment for booking : "+ bookingId);
 
         try {
@@ -23,7 +23,7 @@ public class BookingTask implements Runnable{
         }
     }
 
-    public void confirmTicket(){
+    synchronized void confirmTicket(){
         System.out.println("Ticket confirmed for booking : "+bookingId);
     }
 }
