@@ -1,3 +1,0 @@
-A spent 120 for Snacks for B,C
-B spent 60 for drinks for A,C
-C spent 90 for food for A,B

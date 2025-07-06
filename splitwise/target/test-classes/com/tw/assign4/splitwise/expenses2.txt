@@ -1,6 +1,0 @@
-A spent 120 for Snacks for B,C
-B spent 60 for drinks for A,C
-C spent 90 for food for A,B
-A spent 100 for Snacks for A,B,C,D
-B spent 500 for Taxi for C,D
-D spent 300 for Bus for A,B
