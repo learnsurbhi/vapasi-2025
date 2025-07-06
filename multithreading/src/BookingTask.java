@@ -7,7 +7,7 @@ public class BookingTask implements Runnable{
     }
 
     @Override
-    public synchronized void run() {
+    public synchronized void run(){
         System.out.println("Booking Request received: "+bookingId);
         processPayment();
         confirmTicket();
